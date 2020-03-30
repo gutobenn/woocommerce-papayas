@@ -141,7 +141,7 @@ class WC_Papayas_Gateway extends WC_Payment_Gateway {
      */
     private function papayas_qrcode( $order_id = '' ) {
 
-        echo '<img src="' . $this->qrcode_url . '" />';
+        echo '<img src="' . $this->qrcode_url . '" style="margin-bottom: 30px" />';
 
     }
 
